@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-mono: 'JetBrains Mono', monospace;
+    --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom Scrollbar for matrix trace and code editor */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0F1117;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+.font-mono-code {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.glass-panel {
+  background: #161922;
+  border: 1px solid rgb(30 41 59);
+}
+
+.glass-panel-subtle {
+  background: #0F1117;
+  border: 1px solid rgb(30 41 59 / 0.5);
+}
+
+/* Pipeline Stage Glows and Accents */
+.glow-if {
+  box-shadow: 0 0 16px rgba(59, 130, 246, 0.2);
+}
+.glow-id {
+  box-shadow: 0 0 16px rgba(16, 185, 129, 0.2);
+}
+.glow-ex {
+  box-shadow: 0 0 16px rgba(245, 158, 11, 0.2);
+}
+.glow-mem {
+  box-shadow: 0 0 16px rgba(139, 92, 246, 0.2);
+}
+.glow-wb {
+  box-shadow: 0 0 16px rgba(239, 68, 68, 0.2);
+}

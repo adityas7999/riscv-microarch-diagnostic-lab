@@ -1,0 +1,6 @@
+{
+  "name": "RISC-V Microarchitecture Diagnostic Lab",
+  "description": "Interactive RISC-V 5-stage pipeline diagnostic simulator with dynamic hazard analysis, cycle trace matrix, hardware telemetry, and AI optimization recommendations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
