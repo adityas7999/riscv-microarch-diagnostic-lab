@@ -2,7 +2,7 @@
 
 An interactive performance diagnostic dashboard and 5-stage in-order pipeline visualizer (IF, ID, EX, MEM, WB) for RISC-V (RV32I) architectures.
 
-🔗 **Live App Demo**: [Replace with your .ai.studio URL]
+🔗 **Live App Demo**: (https://risc-v-microarchitecture-diagnostic-lab.ai.studio/)
 
 ---
 
