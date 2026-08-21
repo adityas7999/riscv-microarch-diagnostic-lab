@@ -18,3 +18,13 @@ An interactive performance diagnostic dashboard and 5-stage in-order pipeline vi
 - **Design & Layout**: Google Stitch
 - **Synthesis & Logic**: Gemini 3.7 Flash via Google AI Studio
 - **Frontend Architecture**: Vite + TypeScript + Tailwind CSS
+
+---
+
+## 💡 Usage Tips & Guide
+
+- **Explore Pipeline Hazards**: Use the scenario selector at the top to toggle between different execution cases, including RAW Data Hazards, Branch Mispredictions, and Forwarding paths.
+- **Inspect Cycle-by-Cycle Execution**: Track the progression of instructions across pipeline stages (`IF`, `ID`, `EX`, `MEM`, `WB`) in the Execution Trace matrix.
+- **Analyze Telemetry Metrics**: Monitor real-time performance indicators such as total clock cycles, instruction count, and calculated **IPC (Instructions Per Cycle)**.
+- **Review AI Diagnostic Recommendations**: Check the diagnostic panel for actionable architectural insights, hazard resolution suggestions, and optimization strategies.
+- **Test Optimization Variants**: Compare unoptimized code sequences against forwarded or loop-unrolled alternatives to observe IPC throughput improvements.
