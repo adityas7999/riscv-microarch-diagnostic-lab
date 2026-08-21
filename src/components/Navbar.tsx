@@ -46,15 +46,19 @@ export const Navbar: React.FC<NavbarProps> = ({
     >
       {/* Brand & Version Badge */}
       <div className="flex items-center gap-3">
-        <div className="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center shadow-md shadow-blue-500/20">
-          <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+        <div className="w-9 h-9 bg-blue-500 rounded-lg flex items-center justify-center shadow-md shadow-blue-500/25 shrink-0">
+          {/* SVG CPU Microchip Icon */}
+          <svg className="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <rect x="4" y="4" width="16" height="16" rx="2" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            <rect x="9" y="9" width="6" height="6" rx="1" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 15h3M1 9h3M1 15h3" />
           </svg>
         </div>
         <div>
-          <div className="flex items-center gap-2">
-            <h1 className="text-lg sm:text-xl font-bold tracking-tight text-white">
-              RISC-V <span className="text-blue-400">Diagnostic Lab</span>
+          <div className="flex items-center gap-2 flex-wrap">
+            <h1 className="text-base sm:text-lg lg:text-xl font-bold tracking-tight text-white flex items-center gap-2">
+              <span>RISC-V</span>
+              <span className="text-blue-400">Microarchitecture Diagnostic Lab</span>
             </h1>
             <span className="text-[11px] font-mono-code text-slate-500 uppercase tracking-widest bg-slate-800/80 px-2 py-0.5 rounded border border-slate-700/50">
               RV32I
